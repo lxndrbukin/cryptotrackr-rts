@@ -1,0 +1,37 @@
+.header {
+  width: 100%;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+
+  .header-container {
+    width: 100%;
+    max-width: 1000px;
+
+    .header-logo {
+      display: grid;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .header-search {
+      width: 100%;
+      max-width: 400px;
+      display: grid;
+      grid-template-columns: 1fr 40px;
+
+      input {
+        border: none;
+
+        &:focus {
+          outline: none;
+        }
+      }
+
+      button {
+        border: none;
+        background-color: transparent;
+      }
+    }
+  }
+}
